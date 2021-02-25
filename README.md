@@ -32,6 +32,10 @@
 
 - Clutters markup, but manageable if components are kept small
 
+- With proper use, it can improve maintainability, but can also easily harm maintainability with improper use
+
+- Custom CSS can still be written when needed
+
 - Includes base styles (built on top of [`modern-normalize`](https://github.com/sindresorhus/modern-normalize))
 
 - Purge feature works great (removes all unused styles in production build)
