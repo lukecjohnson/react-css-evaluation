@@ -23,3 +23,16 @@
   - Example: `styles.TaskList` vs `styles['task-list']`
 
 - Can be used with Sass and other pre-processors
+
+## Tailwind
+- [Documentation](https://tailwindcss.com/)
+
+- Steep learning curve, but potential time savings after learning period
+  - Learning class names can take some time, but the documentation is very useful
+
+- Clutters markup, but manageable if components are kept small
+
+- Includes base styles (built on top of [`modern-normalize`](https://github.com/sindresorhus/modern-normalize))
+
+- Purge feature works great (removes all unused styles in production build)
+  - Note: this is just a PostCSS plugin and could be used in any project
