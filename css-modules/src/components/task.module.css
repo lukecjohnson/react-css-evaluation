@@ -1,0 +1,19 @@
+.Task {
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1rem;
+  padding: 0 1rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.Task.complete {
+  color: #9CA3AF;
+  text-decoration: line-through;
+}
+
+.TaskActions {
+  display: flex;
+}

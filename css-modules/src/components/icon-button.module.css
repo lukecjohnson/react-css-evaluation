@@ -1,0 +1,25 @@
+.IconButton {
+  padding: 0.5rem;
+  color: #6B7280;
+  border-radius: 0.5rem;
+  background: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 250ms;
+}
+
+.IconButton.success:hover, .IconButton.success:focus-visible {
+  color: #10B981;
+  background-color: #ECFDF5;
+}
+
+.IconButton.danger:hover, .IconButton.danger:focus-visible {
+  color: #EF4444;
+  background-color: #FEF2F2;
+}
+
+.IconButton svg {
+  display: block;
+}
